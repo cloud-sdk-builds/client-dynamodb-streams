@@ -1,12 +1,12 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-dynamodb-streams`](https://www.npmjs.com/package/@aws-sdk/client-dynamodb-streams/v/3.1167.0).
+[`@aws-sdk/client-dynamodb-streams`](https://www.npmjs.com/package/@aws-sdk/client-dynamodb-streams/v/3.1168.0).
 
 Refer to the links below for detailed documentation:
 - All Services - [https://cloud-sdk-builds.github.io](https://cloud-sdk-builds.github.io/)
 - @aws-sdk/client-dynamodb-streams - [https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams](https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams)
-- @aws-sdk/client-dynamodb-streams v3.1167.0 - [https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams&version=3.1167.0](https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams&version=3.1167.0)
+- @aws-sdk/client-dynamodb-streams v3.1168.0 - [https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams&version=3.1168.0](https://cloud-sdk-builds.github.io/?sdk=client-dynamodb-streams&version=3.1168.0)
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -33,13 +33,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1167.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1168.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-aRkGhRyfFUvj7Y83IIyf8P39L7ooLgK6OHA1W+9uWFCrjZ74Q/2BOdlCOu2TekWC
+sha384-dpW2miIRsKHw5vdn6oVzJb17+oBRkNn9gyEB1cAFRpzPdsex57Oq7w5o+EJV9WTH
 ```
 
 ### 📌 Latest Version
@@ -66,10 +66,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-dynamodb-streams": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1167.0/index.min.mjs"
+            "@aws-sdk/client-dynamodb-streams": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1168.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1167.0/index.min.mjs": "sha384-aRkGhRyfFUvj7Y83IIyf8P39L7ooLgK6OHA1W+9uWFCrjZ74Q/2BOdlCOu2TekWC"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1168.0/index.min.mjs": "sha384-dpW2miIRsKHw5vdn6oVzJb17+oBRkNn9gyEB1cAFRpzPdsex57Oq7w5o+EJV9WTH"
         }
       }
 </script>
@@ -86,10 +86,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-dynamodb-streams": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1167.0/index.min.mjs"
+                        "@aws-sdk/client-dynamodb-streams": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1168.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1167.0/index.min.mjs": "sha384-aRkGhRyfFUvj7Y83IIyf8P39L7ooLgK6OHA1W+9uWFCrjZ74Q/2BOdlCOu2TekWC"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-dynamodb-streams@3.1168.0/index.min.mjs": "sha384-dpW2miIRsKHw5vdn6oVzJb17+oBRkNn9gyEB1cAFRpzPdsex57Oq7w5o+EJV9WTH"
                     }
                   }
             </script>
@@ -156,7 +156,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.1167.0`)
+* Always pin to a specific version (`@3.1168.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -176,7 +176,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-dynamodb-streams/blob/refs/tags/3.1167.0/LICENSE
+https://github.com/cloud-sdk-builds/client-dynamodb-streams/blob/refs/tags/3.1168.0/LICENSE
 ```
 
 ---
